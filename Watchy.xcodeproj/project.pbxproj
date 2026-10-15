@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B587C21530806ADE0084A38F /* Watchy Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B587C21430806ADE0084A38F /* Watchy Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B587C20130806ADE0084A38F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B587C1EB30806ADE0084A38F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B587C1F230806ADE0084A38F;
+			remoteInfo = Watchy;
+		};
+		B587C20B30806ADE0084A38F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B587C1EB30806ADE0084A38F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B587C1F230806ADE0084A38F;
+			remoteInfo = Watchy;
+		};
+		B587C21630806ADE0084A38F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B587C1EB30806ADE0084A38F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B587C21330806ADE0084A38F;
+			remoteInfo = "Watchy Watch App";
+		};
+		B587C22430806ADF0084A38F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B587C1EB30806ADE0084A38F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B587C21330806ADE0084A38F;
+			remoteInfo = "Watchy Watch App";
+		};
+		B587C22E30806ADF0084A38F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B587C1EB30806ADE0084A38F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B587C21330806ADE0084A38F;
+			remoteInfo = "Watchy Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B587C23830806ADF0084A38F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolder = Product;
+			files = (
+				B587C21530806ADE0084A38F /* Watchy Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B587C1F330806ADE0084A38F /* Watchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B587C20030806ADE0084A38F /* WatchyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B587C20A30806ADE0084A38F /* WatchyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B587C21430806ADE0084A38F /* Watchy Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watchy Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B587C22330806ADF0084A38F /* Watchy Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watchy Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B587C22D30806ADF0084A38F /* Watchy Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watchy Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B587C1F530806ADE0084A38F /* Watchy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Watchy;
+			sourceTree = "<group>";
+		};
+		B587C20330806ADE0084A38F /* WatchyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WatchyTests;
+			sourceTree = "<group>";
+		};
+		B587C20D30806ADE0084A38F /* WatchyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WatchyUITests;
+			sourceTree = "<group>";
+		};
+		B587C21830806ADE0084A38F /* Watchy Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Watchy Watch App";
+			sourceTree = "<group>";
+		};
+		B587C22630806ADF0084A38F /* Watchy Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Watchy Watch AppTests";
+			sourceTree = "<group>";
+		};
+		B587C23030806ADF0084A38F /* Watchy Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Watchy Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B587C1F030806ADE0084A38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		B587C1FD30806ADE0084A38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		B587C20730806ADE0084A38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		B587C21130806ADE0084A38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		B587C22030806ADF0084A38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		B587C22A30806ADF0084A38F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B587C1EA30806ADE0084A38F = {
+			isa = PBXGroup;
+			children = (
+				B587C1F530806ADE0084A38F /* Watchy */,
+				B587C20330806ADE0084A38F /* WatchyTests */,
+				B587C20D30806ADE0084A38F /* WatchyUITests */,
+				B587C21830806ADE0084A38F /* Watchy Watch App */,
+				B587C22630806ADF0084A38F /* Watchy Watch AppTests */,
+				B587C23030806ADF0084A38F /* Watchy Watch AppUITests */,
+				B587C1F430806ADE0084A38F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B587C1F430806ADE0084A38F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B587C1F330806ADE0084A38F /* Watchy.app */,
+				B587C20030806ADE0084A38F /* WatchyTests.xctest */,
+				B587C20A30806ADE0084A38F /* WatchyUITests.xctest */,
+				B587C21430806ADE0084A38F /* Watchy Watch App.app */,
+				B587C22330806ADF0084A38F /* Watchy Watch AppTests.xctest */,
+				B587C22D30806ADF0084A38F /* Watchy Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B587C1F230806ADE0084A38F /* Watchy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B587C23930806ADF0084A38F /* Build configuration list for PBXNativeTarget "Watchy" */;
+			buildPhases = (
+				B587C1EF30806ADE0084A38F /* Sources */,
+				B587C1F030806ADE0084A38F /* Frameworks */,
+				B587C1F130806ADE0084A38F /* Resources */,
+				B587C23830806ADF0084A38F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B587C21730806ADE0084A38F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B587C1F530806ADE0084A38F /* Watchy */,
+			);
+			name = Watchy;
+			productName = Watchy;
+			productReference = B587C1F330806ADE0084A38F /* Watchy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B587C1FF30806ADE0084A38F /* WatchyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B587C23C30806ADF0084A38F /* Build configuration list for PBXNativeTarget "WatchyTests" */;
+			buildPhases = (
+				B587C1FC30806ADE0084A38F /* Sources */,
+				B587C1FD30806ADE0084A38F /* Frameworks */,
+				B587C1FE30806ADE0084A38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B587C20230806ADE0084A38F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B587C20330806ADE0084A38F /* WatchyTests */,
+			);
+			name = WatchyTests;
+			productName = WatchyTests;
+			productReference = B587C20030806ADE0084A38F /* WatchyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B587C20930806ADE0084A38F /* WatchyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B587C23F30806ADF0084A38F /* Build configuration list for PBXNativeTarget "WatchyUITests" */;
+			buildPhases = (
+				B587C20630806ADE0084A38F /* Sources */,
+				B587C20730806ADE0084A38F /* Frameworks */,
+				B587C20830806ADE0084A38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B587C20C30806ADE0084A38F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B587C20D30806ADE0084A38F /* WatchyUITests */,
+			);
+			name = WatchyUITests;
+			productName = WatchyUITests;
+			productReference = B587C20A30806ADE0084A38F /* WatchyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B587C21330806ADE0084A38F /* Watchy Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B587C23530806ADF0084A38F /* Build configuration list for PBXNativeTarget "Watchy Watch App" */;
+			buildPhases = (
+				B587C21030806ADE0084A38F /* Sources */,
+				B587C21130806ADE0084A38F /* Frameworks */,
+				B587C21230806ADE0084A38F /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				B587C21830806ADE0084A38F /* Watchy Watch App */,
+			);
+			name = "Watchy Watch App";
+			productName = "Watchy Watch App";
+			productReference = B587C21430806ADE0084A38F /* Watchy Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B587C22230806ADF0084A38F /* Watchy Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B587C24230806ADF0084A38F /* Build configuration list for PBXNativeTarget "Watchy Watch AppTests" */;
+			buildPhases = (
+				B587C21F30806ADF0084A38F /* Sources */,
+				B587C22030806ADF0084A38F /* Frameworks */,
+				B587C22130806ADF0084A38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B587C22530806ADF0084A38F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B587C22630806ADF0084A38F /* Watchy Watch AppTests */,
+			);
+			name = "Watchy Watch AppTests";
+			productName = "Watchy Watch AppTests";
+			productReference = B587C22330806ADF0084A38F /* Watchy Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B587C22C30806ADF0084A38F /* Watchy Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B587C24530806ADF0084A38F /* Build configuration list for PBXNativeTarget "Watchy Watch AppUITests" */;
+			buildPhases = (
+				B587C22930806ADF0084A38F /* Sources */,
+				B587C22A30806ADF0084A38F /* Frameworks */,
+				B587C22B30806ADF0084A38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B587C22F30806ADF0084A38F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B587C23030806ADF0084A38F /* Watchy Watch AppUITests */,
+			);
+			name = "Watchy Watch AppUITests";
+			productName = "Watchy Watch AppUITests";
+			productReference = B587C22D30806ADF0084A38F /* Watchy Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B587C1EB30806ADE0084A38F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					B587C1F230806ADE0084A38F = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					B587C1FF30806ADE0084A38F = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = B587C1F230806ADE0084A38F;
+					};
+					B587C20930806ADE0084A38F = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = B587C1F230806ADE0084A38F;
+					};
+					B587C21330806ADE0084A38F = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					B587C22230806ADF0084A38F = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = B587C21330806ADE0084A38F;
+					};
+					B587C22C30806ADF0084A38F = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = B587C21330806ADE0084A38F;
+					};
+				};
+			};
+			buildConfigurationList = B587C1EE30806ADE0084A38F /* Build configuration list for PBXProject "Watchy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B587C1EA30806ADE0084A38F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B587C1F430806ADE0084A38F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B587C1F230806ADE0084A38F /* Watchy */,
+				B587C1FF30806ADE0084A38F /* WatchyTests */,
+				B587C20930806ADE0084A38F /* WatchyUITests */,
+				B587C21330806ADE0084A38F /* Watchy Watch App */,
+				B587C22230806ADF0084A38F /* Watchy Watch AppTests */,
+				B587C22C30806ADF0084A38F /* Watchy Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B587C1F130806ADE0084A38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		B587C1FE30806ADE0084A38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		B587C20830806ADE0084A38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		B587C21230806ADE0084A38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		B587C22130806ADF0084A38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		B587C22B30806ADF0084A38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B587C1EF30806ADE0084A38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		B587C1FC30806ADE0084A38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		B587C20630806ADE0084A38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		B587C21030806ADE0084A38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		B587C21F30806ADF0084A38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		B587C22930806ADF0084A38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B587C20230806ADE0084A38F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B587C1F230806ADE0084A38F /* Watchy */;
+			targetProxy = B587C20130806ADE0084A38F /* PBXContainerItemProxy */;
+		};
+		B587C20C30806ADE0084A38F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B587C1F230806ADE0084A38F /* Watchy */;
+			targetProxy = B587C20B30806ADE0084A38F /* PBXContainerItemProxy */;
+		};
+		B587C21730806ADE0084A38F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B587C21330806ADE0084A38F /* Watchy Watch App */;
+			targetProxy = B587C21630806ADE0084A38F /* PBXContainerItemProxy */;
+		};
+		B587C22530806ADF0084A38F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B587C21330806ADE0084A38F /* Watchy Watch App */;
+			targetProxy = B587C22430806ADF0084A38F /* PBXContainerItemProxy */;
+		};
+		B587C22F30806ADF0084A38F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B587C21330806ADE0084A38F /* Watchy Watch App */;
+			targetProxy = B587C22E30806ADF0084A38F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B587C23330806ADF0084A38F /* Debug configuration for PBXProject "Watchy" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B587C23430806ADF0084A38F /* Release configuration for PBXProject "Watchy" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B587C23630806ADF0084A38F /* Debug configuration for PBXNativeTarget "Watchy Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Watchy;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.rezajafar.Watchy;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezajafar.Watchy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		B587C23730806ADF0084A38F /* Release configuration for PBXNativeTarget "Watchy Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Watchy;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.rezajafar.Watchy;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezajafar.Watchy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		B587C23A30806ADF0084A38F /* Debug configuration for PBXNativeTarget "Watchy" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Watchy;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezajafar.Watchy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B587C23B30806ADF0084A38F /* Release configuration for PBXNativeTarget "Watchy" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Watchy;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezajafar.Watchy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B587C23D30806ADF0084A38F /* Debug configuration for PBXNativeTarget "WatchyTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezajafar.WatchyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watchy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Watchy";
+			};
+			name = Debug;
+		};
+		B587C23E30806ADF0084A38F /* Release configuration for PBXNativeTarget "WatchyTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezajafar.WatchyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watchy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Watchy";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B587C24030806ADF0084A38F /* Debug configuration for PBXNativeTarget "WatchyUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezajafar.WatchyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Watchy;
+			};
+			name = Debug;
+		};
+		B587C24130806ADF0084A38F /* Release configuration for PBXNativeTarget "WatchyUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezajafar.WatchyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Watchy;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B587C24330806ADF0084A38F /* Debug configuration for PBXNativeTarget "Watchy Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rezajafar.Watchy-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watchy Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Watchy Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		B587C24430806ADF0084A38F /* Release configuration for PBXNativeTarget "Watchy Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rezajafar.Watchy-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watchy Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Watchy Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		B587C24630806ADF0084A38F /* Debug configuration for PBXNativeTarget "Watchy Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rezajafar.Watchy-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Watchy Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		B587C24730806ADF0084A38F /* Release configuration for PBXNativeTarget "Watchy Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G56KC8CS7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rezajafar.Watchy-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Watchy Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B587C1EE30806ADE0084A38F /* Build configuration list for PBXProject "Watchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587C23330806ADF0084A38F /* Debug configuration for PBXProject "Watchy" */,
+				B587C23430806ADF0084A38F /* Release configuration for PBXProject "Watchy" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B587C23530806ADF0084A38F /* Build configuration list for PBXNativeTarget "Watchy Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587C23630806ADF0084A38F /* Debug configuration for PBXNativeTarget "Watchy Watch App" */,
+				B587C23730806ADF0084A38F /* Release configuration for PBXNativeTarget "Watchy Watch App" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B587C23930806ADF0084A38F /* Build configuration list for PBXNativeTarget "Watchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587C23A30806ADF0084A38F /* Debug configuration for PBXNativeTarget "Watchy" */,
+				B587C23B30806ADF0084A38F /* Release configuration for PBXNativeTarget "Watchy" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B587C23C30806ADF0084A38F /* Build configuration list for PBXNativeTarget "WatchyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587C23D30806ADF0084A38F /* Debug configuration for PBXNativeTarget "WatchyTests" */,
+				B587C23E30806ADF0084A38F /* Release configuration for PBXNativeTarget "WatchyTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B587C23F30806ADF0084A38F /* Build configuration list for PBXNativeTarget "WatchyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587C24030806ADF0084A38F /* Debug configuration for PBXNativeTarget "WatchyUITests" */,
+				B587C24130806ADF0084A38F /* Release configuration for PBXNativeTarget "WatchyUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B587C24230806ADF0084A38F /* Build configuration list for PBXNativeTarget "Watchy Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587C24330806ADF0084A38F /* Debug configuration for PBXNativeTarget "Watchy Watch AppTests" */,
+				B587C24430806ADF0084A38F /* Release configuration for PBXNativeTarget "Watchy Watch AppTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B587C24530806ADF0084A38F /* Build configuration list for PBXNativeTarget "Watchy Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587C24630806ADF0084A38F /* Debug configuration for PBXNativeTarget "Watchy Watch AppUITests" */,
+				B587C24730806ADF0084A38F /* Release configuration for PBXNativeTarget "Watchy Watch AppUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B587C1EB30806ADE0084A38F /* Project object */;
+	validationLevel = 1;
+}
